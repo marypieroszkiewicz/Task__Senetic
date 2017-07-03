@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task Front-End - Senetic</title>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<!-- Header -->
+	<header class="header container clearfix">
+		<nav class="navigation">
+			<h1 class="headline">Portfolio</h1>
+			<input type="checkbox" id="toggle"/>
+		  	<label class="btn" for="toggle" aria-label="Open / Close Menu">
+		    <div class="hamburger hamburger__container">
+		    	<span class="line"></span>
+		    	<span class="line"></span>
+		    	<span class="line"></span>
+		    	<span class="line"></span>
+		     </div>
+		   	</label>
+		   	<ul class="nav">
+		   		<li class="nav__item"><a class="nav__link active" href="#">All</a></li>
+		   		<li class="nav__item"><a class="nav__link" href="#">Filtr nr 1</a></li>
+		   		<li class="nav__item"><a class="nav__link" href="#">Filtr nr 2</a></li>
+		   		<li class="nav__item"><a class="nav__link" href="#">Filtr nr 3</a></li>
+		   	</ul>
+		</nav>
+	</header>
+	<!-- Main -->
+	<main class="container clearfix main">
+		<section class="grid">
+			<div class="grid__item">
+				<div class="grid__img">
+					<img src="images/img_1.jpg" alt="" title="">
+				</div>
+			</div>
+			<div class="grid__item">
+				<div class="grid__img">
+					<img src="images/img_2.jpg" alt="" title="">
+				</div>
+			</div>
+			<div class="grid__item">
+				<div class="grid__img">
+					<img src="images/img_3.jpg" alt="" title="">
+				</div>
+			</div>
+			<div class="grid__item">
+				<div class="grid__img">
+					<img src="images/img_4.jpg" alt="" title="">
+				</div>
+			</div>
+			<div class="grid__item">
+				<div class="grid__img">
+					<img src="images/img_1.jpg" alt="" title="">
+				</div>
+			</div>
+			<div class="grid__item">
+				<div class="grid__img">
+					<img src="images/img_2.jpg" alt="" title="">
+				</div>
+			</div>
+			<div class="grid__item">
+				<div class="grid__img">
+					<img src="images/img_3.jpg" alt="" title="">
+				</div>
+			</div>
+			<div class="grid__item">
+				<div class="grid__img">
+					<img src="images/img_4.jpg" alt="" title="">
+				</div>
+			</div>
+		</section>
+	</main>
+	<!-- Footer -->
+	<footer class="footer">
+		<section class="container clearfix">
+			<div class="footer__container">	
+				<h1 class="headline headline__contact">Kontakt</h1>		
+				<form class="form">
+  					<div class="form__inputs">
+    					<div class="inputs__content">
+      						<label for="name">Imię i Nazwisko</label>
+      						<input type="text" class="form-control" id="name">
+    					</div>
+    					<div class="inputs__content">
+      						<label for="email">Email</label>
+      						<input type="email" class="form-control" id="email">
+    					</div>
+   					</div>
+  					<div class="form__textarea">
+    					<label for="message">Wiadomość</label>
+    					<textarea name="textarea" id="" rows="7"></textarea>
+      					<button class='form__btn btn-primary'>Wyślij</button>
+  					</div>
+  					<div class="form__text">
+    					<p class="par">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        			
+        				<ul class="contact__info">
+          					<li>Jan Nowak</li>
+          					<li><a class="contact__link" href="tel:+48 111 222 333">+48 111 222 333</a></li>
+          					<li><a class="contact__link" href="mailto:jan@nowak.pl">jan@nowak.pl</a></li>
+          					<li><a class="contact__link" href="#">www.nowak.pl</a></li>
+        				</ul>
+  					</div>
+				</form>
+	        </div>
+	    </section>
+	</footer>
+<!-- JS  Scripts-->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
